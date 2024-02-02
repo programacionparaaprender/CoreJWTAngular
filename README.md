@@ -126,11 +126,14 @@ PM> add-migration v.9.0.0
 PM> add-migration v.10.0.0
 PM> update-database
 
-### conectarse a postgres
->- Install-Package Npgsql 6.0.10
->- Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
+### conectarse a Oracle
+>- Install-Package Oracle.EntityFrameworkCore 6.21.130
 >- https://www.npgsql.org/doc/basic-usage.html
 
+
+### conectarse a Postgres
+>- Install-Package Npgsql 6.0.10
+>- Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
 
 https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.32&arch=x64&rid=win10-x64
 
