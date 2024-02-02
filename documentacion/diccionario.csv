@@ -1,0 +1,5 @@
+Columna ;Valor;Longitud;Descripcion
+id;entero;;Clave primaria de usuario del sistema
+password;carácter;32;contraseña de usuario del sistema
+email;carácter;32;email de usuario del sistema
+nombre;carácter;32;nombre de usuario del sistema
