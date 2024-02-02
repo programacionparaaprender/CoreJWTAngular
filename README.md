@@ -124,6 +124,8 @@ PM> add-migration v.7.0.0
 PM> add-migration v.8.0.0
 PM> add-migration v.9.0.0
 PM> add-migration v.10.0.0
+PM> add-migration v.11.0.0
+PM> add-migration v.12.0.0
 PM> update-database
 
 ### conectarse a Oracle
@@ -134,6 +136,16 @@ PM> update-database
 ### conectarse a Postgres
 >- Install-Package Npgsql 6.0.10
 >- Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
+
+### conectarse con mysql
+>- pendiente
+>- https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core.html
+>- Install-Package MySql.Data.EntityFrameworkCore 6.10.9
+
+### docker 
+>- https://learn.microsoft.com/es-es/dotnet/core/docker/build-container?tabs=windows&pivots=dotnet-8-0
+>- docker-compose build
+>- docker-compose up -d
 
 https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.32&arch=x64&rid=win10-x64
 
