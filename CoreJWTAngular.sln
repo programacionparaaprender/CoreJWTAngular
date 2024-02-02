@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models6", "Models6\Models6.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBTarjetaApi6", "FBTarjetaApi6\FBTarjetaApi6.csproj", "{F45EF451-8756-4C5C-A9E5-B9A95ADA227B}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ClientApp", "ClientApp\ClientApp.esproj", "{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +33,6 @@ Global
 		{F45EF451-8756-4C5C-A9E5-B9A95ADA227B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F45EF451-8756-4C5C-A9E5-B9A95ADA227B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F45EF451-8756-4C5C-A9E5-B9A95ADA227B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAA848E6-0A39-4AF8-B2FB-FFC106EED1EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
