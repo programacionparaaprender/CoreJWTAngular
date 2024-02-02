@@ -111,15 +111,25 @@ end
 
 https://codepen.io/arsinak/pen/eFDGw/
 
+### conectarse a sql server
+
 >- Install-Package Microsoft.EntityFrameworkCore
 >- Install-Package Microsoft.EntityFrameworkCore.SqlServer
 >- Install-Package Microsoft.EntityFrameworkCore.Tools -Version 3.1.6
 
+### comandos
+
 PM> add-migration v.6.0.0
 PM> add-migration v.7.0.0
 PM> add-migration v.8.0.0
+PM> add-migration v.9.0.0
+PM> add-migration v.10.0.0
 PM> update-database
 
+### conectarse a postgres
+>- Install-Package Npgsql 6.0.10
+>- Install-Package Npgsql.EntityFrameworkCore.PostgreSQL
+>- https://www.npgsql.org/doc/basic-usage.html
 
 
 https://aka.ms/dotnet-core-applaunch?framework=Microsoft.NETCore.App&framework_version=3.1.32&arch=x64&rid=win10-x64
