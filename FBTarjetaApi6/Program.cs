@@ -22,13 +22,16 @@ builder.Services.AddTransient<UsuarioService, UsuarioService>();
 builder.Services.AddTransient<MenuService, MenuService>();
 builder.Services.AddControllers();
 
-string MyAllowSpecificOrigins = "PermitirTodo";
+string MyAllowSpecificOrigins = "MyAllowSpecificOrigins";
+string MyAllowOrigins = "PermitirTodo";
+
+string LOCAL = builder.Configuration.GetConnectionString("LOCAL");
 
 builder.Services.AddCors(options => {
-    options.AddPolicy(MyAllowSpecificOrigins,
-    acceso => acceso.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-    //options.AddPolicy(name: "angular",
-    //policy  => { policy.WithOrigins("http:localhost:4200", "http://www.contoso.com"); });
+    //options.AddPolicy(MyAllowSpecificOrigins,
+    //acceso => acceso.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+    policy  => { policy.WithOrigins(LOCAL, "http://www.contoso.com").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin(); });
 });
 builder.Services.AddControllersWithViews();
 builder.Services.AddSwaggerGen(c =>
