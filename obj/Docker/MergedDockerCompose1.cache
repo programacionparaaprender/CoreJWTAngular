@@ -1,0 +1,62 @@
+name: dockercompose10766449611526478549
+services:
+  fbtarjetaapi6:
+    build:
+      context: C:\Users\luis1\Documents\htdocs\CoreJWTAngular
+      dockerfile: FBTarjetaApi6\Dockerfile
+    container_name: netcore_app
+    depends_on:
+      netcore_db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DATABASE: postgres
+      DATABASE_PASSWORD: postgres
+      DATABASE_URL: localhost:5432
+      DATABASE_USERNAME: postgres
+    image: fbtarjetaapi6
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+      - mode: ingress
+        target: 8762
+        published: "8762"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\luis1\AppData\Roaming/Microsoft/UserSecrets
+        target: C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\luis1\AppData\Roaming/ASP.NET/Https
+        target: C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https
+        read_only: true
+        bind:
+          create_host_path: true
+  netcore_db:
+    container_name: netcore_db
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+    image: postgres:12
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose10766449611526478549_default

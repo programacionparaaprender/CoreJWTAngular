@@ -1,0 +1,13 @@
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.json
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\bin\Debug\netcoreapp3.1\Models.runtimeconfig.dev.json
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.csproj.AssemblyReference.cache
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.dll
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.pdb
+C:\Users\luis1\Documents\htdocs\CoreAPIWithJWT\Models\obj\Debug\netcoreapp3.1\Models.genruntimeconfig.cache

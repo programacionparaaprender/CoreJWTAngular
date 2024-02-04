@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Host=${DATABASE_URL};Username=${DATABASE_USERNAME};Password=${DATABASE_PASSWORD};Database=${DATABASE}",
+    "DefaultConnection": "Host=localhost:5434;Username=sa;Password=123;Database=netcore",
     "LOCAL": "http://localhost:4200"
   },
   "Logging": {
