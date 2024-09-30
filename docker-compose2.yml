@@ -8,7 +8,7 @@ services:
      context: ./
      dockerfile: /FBTarjetaApi6/Dockerfile
     ports:
-      - 8762:8762
+      - 7207:7207
     environment:
       - DATABASE_URL=localhost:5432
       - DATABASE=postgres

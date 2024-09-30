@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = Common
 build_property.ProjectDir = C:\Users\luis1\Documents\htdocs\CoreJWTAngular\Common\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

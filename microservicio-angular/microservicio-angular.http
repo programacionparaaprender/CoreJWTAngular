@@ -1,0 +1,6 @@
+@microservicio_angular_HostAddress = http://localhost:5022
+
+GET {{microservicio_angular_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

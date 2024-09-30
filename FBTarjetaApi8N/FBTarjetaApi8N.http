@@ -1,0 +1,6 @@
+@FBTarjetaApi8N_HostAddress = http://localhost:5147
+
+GET {{FBTarjetaApi8N_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

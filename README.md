@@ -1,3 +1,7 @@
+### insertar data de menu
+
+
+
 ### FBTarjetas 3.1
 dotnet new angular -o FBTarjeta -f netcoreapp3.1
 
@@ -10,6 +14,11 @@ dotnet new angular -o FBTarjeta66 -f net6.0
 ### FBTarjetas7 7.0 para angular
 dotnet new angular -o FBTarjeta7 -f net7.0
 
+### FBTarjetas8 8.0 para angular
+
+>- https://learn.microsoft.com/en-us/aspnet/core/security/enforcing-ssl?view=aspnetcore-8.0&tabs=netcore-cli%2Clinux-ubuntu
+>- dotnet new webapi -o FBTarjetaApi8 -f net8.0 --no-https
+
 
 dotnet new sln
 dotnet sln add .\FBTarjeta\FBTarjeta.csproj
@@ -19,6 +28,12 @@ dotnet sln add FBTarjeta7/FBTarjeta7.csproj
 
 ng add @angular/cdk @angular/http
 
+### Microservicios desactivar check https
+>- https://www.youtube.com/watch?v=nFbsGMND3-A
+
+>- https://dotnet.microsoft.com/es-es/learn/aspnet/microservice-tutorial/create
+
+>- https://dotnet.microsoft.com/es-es/learn/aspnet/microservice-tutorial/docker-file
 
 ### documentaci�n de swagger
 https://docs.microsoft.com/es-es/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio
@@ -126,6 +141,7 @@ PM> add-migration v.9.0.0
 PM> add-migration v.10.0.0
 PM> add-migration v.11.0.0
 PM> add-migration v.12.0.0
+PM> add-migration v.13.0.0
 PM> update-database
 
 ### conectarse a Oracle

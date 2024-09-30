@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FBTarjetaApi6N.props" />
+</Project>
